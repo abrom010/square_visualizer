@@ -37,7 +37,6 @@ class Square {
     const newLength = Math.sqrt(this.length * this.length * 2);
     const squares = [];
     if (this.rotated) {
-      // wrong
       squares.push(
         new Square(
           newLength,

@@ -25,8 +25,6 @@ function gameLoop() {
     counter = 0;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
   }
-  //console.log(counter);
-  //ctx.clearRect(0, 0, canvas.width, canvas.height);
   const centerPosition = new Position(canvas.width / 2, canvas.height / 2);
   const centerSquare = new Square(50, centerPosition, true, counter, counter);
 
